@@ -1,16 +1,23 @@
 
-Pinging e16198.dscb.akamaiedge.net [2.17.0.91] with 32 bytes of data:
-Reply from 2.17.0.91: bytes=32 time=2ms TTL=54
-Reply from 2.17.0.91: bytes=32 time=2ms TTL=54
-Reply from 2.17.0.91: bytes=32 time=2ms TTL=54
-Reply from 2.17.0.91: bytes=32 time=3ms TTL=54
-Reply from 2.17.0.91: bytes=32 time=2ms TTL=54
-Reply from 2.17.0.91: bytes=32 time=2ms TTL=54
-Reply from 2.17.0.91: bytes=32 time=2ms TTL=54
-Reply from 2.17.0.91: bytes=32 time=2ms TTL=54
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
 
-Ping statistics for 2.17.0.91:
-    Packets: Sent = 8, Received = 8, Lost = 0 (0% loss),
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 2ms, Maximum = 3ms, Average = 2ms
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
 Control-C

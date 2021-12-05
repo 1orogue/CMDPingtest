@@ -11,6 +11,7 @@ host = input("Please input ip adress: ")
 test_complete = "Test is complete! Logfile.txt is located in: "
 test_failed = "Test has failed!"
 
+
 #funtion for doing ping command in CMD and parsing it into a .csv file using the OS module.
 #if response is 0 then test_complete + cwd is returned
 #if response is false then test_failed is returned
@@ -24,5 +25,5 @@ def myping(host):
 
 print("The test is running!")
 print("If test needs to end prematurely press 'CTRL-C' and find logfile located in: " + cwd)
-print(myping(host))
+myping(host)
 input("Press any button to exit!")
