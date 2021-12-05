@@ -12,6 +12,8 @@ def countdown(h, m, s):
     while total_seconds > 0:
         # Timer represents time left on countdown
         timer = datetime.timedelta(seconds=total_seconds)
+        #myping here.
+        myping(host)
 
         # Prints the time left on the timer
         print(timer, end="\r")

@@ -27,3 +27,4 @@ print("The test is running!")
 print("If test needs to end prematurely press 'CTRL-C' and find logfile located in: " + cwd)
 myping(host)
 input("Press any button to exit!")
+
