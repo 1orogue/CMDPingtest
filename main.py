@@ -18,11 +18,12 @@ test_failed = "Test has failed!"
 wait_interval_input = input("Enter pinginterval in seconds: ")
 hours_to_watch_input = input("Enter the period of test in hours: ")
 minutes_to_watch_input = input("Enter the period of test in minutes: ")
+logfile_datetime = time.strftime("%d%m%Y-%H%M%S") + ".csv"
 
 # function for doing ping command in CMD and parsing it into a .csv file using the OS module.
 # if response is 0 then test_complete + cwd is returned
 # if response is false then test_failed is returned
-def myping(host, wait_interval=int(wait_interval_input), hours_to_watch=int(hours_to_watch_input), minutes_to_watch=int(minutes_to_watch_input), logfile="myping.csv"):
+def myping(host, wait_interval=int(wait_interval_input), hours_to_watch=int(hours_to_watch_input), minutes_to_watch=int(minutes_to_watch_input), logfile=logfile_datetime):
     end_date = datetime.datetime.now() + datetime.timedelta(hours=hours_to_watch, minutes=minutes_to_watch,)
     current_date = datetime.datetime.now()
     print("Test will end on: " + str(end_date))
