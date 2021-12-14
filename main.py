@@ -12,13 +12,13 @@ host = input("Please input ip adress: ")
 
 # string variables for myping function returns
 test_complete = "Test is complete! Logfile.txt is located in: "
-test_failed = "Test has failed!"
+#test_failed = "Test has failed!"
 
 #variables for myping function.
 wait_interval_input = input("Enter pinginterval in seconds: ")
 hours_to_watch_input = input("Enter the period of test in hours: ")
 minutes_to_watch_input = input("Enter the period of test in minutes: ")
-logfile_datetime = time.strftime("%d%m%Y-%H%M%S") + ".csv"
+logfile_datetime = time.strftime("%d%b%Y_%H%M(UTC%z)_").upper() + host + ".csv"
 
 # function for doing ping command in CMD and parsing it into a .csv file using the OS module.
 # if response is 0 then test_complete + cwd is returned
